@@ -1,0 +1,4 @@
+['in','a','the','there','not','of','and','an','nor','yet','it','to','on','or','that','one','about','half','our','than','he','is','like','most','his','best','when','by','own','certainlythis',
+'would','last','for','no','such','however','soon','have','before','can','even','out','into','from','their','from','alongthe','they','all','whom','this','j','r','has','himself','at','its',
+'all','be','will','time','so','below','under','why','are','you','we','said','do','must','only','if',"i'd",'then','could','her',"i'm","who's",'who','there?','-','my','i','what','where','now',
+'your','u','s','may','him','them','else','end','each','been','never','any','again',"'ll","they'll",'ask','there!']

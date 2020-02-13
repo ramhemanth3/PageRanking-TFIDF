@@ -1,0 +1,16 @@
+open htext4.py, and replace url1, with the new url, and run it as follows;
+python htext4.py > temp1.txt
+Open temp1.txt, and, replace \n\n\n\n\n\n with \n
+replace \n\n with \n
+replace \n\n\n with \n
+replace \n\n\n\n\n with \n
+replace \n \n with \n
+save temp1.txt
+open htext2.py, and replace the current file in the firts statement with temp1.txt
+Run the following command:
+python htext2.py > temp2.txt
+open temp2.txt, and remove additional things & also remove all \
+replace all occurences of strings starting with xe2(with either ',or '').
+
+
+
