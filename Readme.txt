@@ -9,3 +9,9 @@ Before running make sure you have pyqt5 installed
 3) export - pip install export
 
 
+Abstract 
+1) Page Ranking is an algorithm which decides what to bring on first page for query on a search engine.
+2) Page Rank rates a web page’s importance by looking at how many outside links points to it and how important those links are.
+3) Search results have to be relevant according to location, words of query, usability of page, user’s settings and expertise of source.
+4) It is based on idea that the popularity of a web page is determined not only by the number of incoming links but also by the kind of incoming links. 
+5) This project comes under the domain Text mining and Information Retrieval. Some of the other algorithms include Bag of Words, TF-IDF (Term Frequency- Inverse Document Frequency). 
