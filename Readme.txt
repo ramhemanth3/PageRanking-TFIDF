@@ -4,8 +4,9 @@ Before running make sure you have pyqt5 installed
 1)pip  pyqt5 - pip3 install PyQt5
                        pip install pyqt5-tools
 2 nltk - pip install nltk
-            nltk.download('stopwords')
-           nltk.download('wordnet')
+and after that ->  import nltk;
+                   nltk.download('stopwords')
+                   nltk.download('wordnet')
 3) export - pip install export
 
 
