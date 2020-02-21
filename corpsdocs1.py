@@ -1,10 +1,12 @@
 import sys
 import os
-#from corpsdocs import *
+from corpsdocs import *
 from PyQt5 import QtWidgets, QtGui, QtCore
-import pymysql
+#import pymysql
 
-con = pymysql.connect(host='localhost', port=3306, user='team1', passwd='test623', db='rdbidf1')
+#con = pymysql.connect(host='localhost', port=3306, user='team1', passwd='test623', db='rdbidf1')
+import sqlite3
+con = sqlite3.connect('rdbidf1')
 
 class MyForm(QtWidgets.QMainWindow):
   def __init__(self,parent=None):
@@ -29,7 +31,7 @@ class MyForm(QtWidgets.QMainWindow):
     
         cur = con.cursor()
         for k in range(1,6):
-          cur.execute('SELECT docdesc FROM docs where docid = %s;', k);
+          cur.execute('SELECT docdesc FROM docs where docid = ?;',(k,));
           result = cur.fetchall()
           #print(result)
           for row in result:

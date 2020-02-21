@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>582</width>
-    <height>296</height>
+    <width>530</width>
+    <height>312</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Ranking of Documents Based on IDF</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 170, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
@@ -22,6 +25,9 @@
       <width>271</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);</string>
     </property>
     <property name="text">
      <string>IDFs calculation</string>
@@ -36,6 +42,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);</string>
+    </property>
     <property name="text">
      <string>Ranking of DOCs</string>
     </property>
@@ -48,6 +57,9 @@
       <width>271</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);</string>
     </property>
     <property name="text">
      <string>Docs.  in Corpus</string>
@@ -62,6 +74,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);</string>
+    </property>
     <property name="text">
      <string>Preprocess the text</string>
     </property>
@@ -74,6 +89,9 @@
       <width>271</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);</string>
     </property>
     <property name="text">
      <string>HTML to Text</string>
@@ -88,6 +106,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);</string>
+    </property>
     <property name="text">
      <string>Lemmatization</string>
     </property>
@@ -100,6 +121,9 @@
       <width>271</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);</string>
     </property>
     <property name="text">
      <string>Select Query</string>

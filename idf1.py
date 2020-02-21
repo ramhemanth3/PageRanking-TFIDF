@@ -4,12 +4,15 @@ import pandas as pd
 import nltk
 from nltk.corpus import stopwords
 from export import *
-import pymysql
+#import pymysql
 from functools import reduce
 from collections import defaultdict
 import math
 
-con = pymysql.connect(host='localhost', port=3306, user='team1', passwd='test623', db='rdbidf1')
+#con = pymysql.connect(host='localhost', port=3306, user='team1', passwd='test623', db='rdbidf1')
+import sqlite3
+con = sqlite3.connect('rdbidf1')
+
 N=5
 
 with open('Falcon2.txt', 'r') as myfile:

@@ -2,9 +2,15 @@ import sys
 import os
 from htmltotext import *
 from PyQt5 import QtWidgets, QtGui, QtCore
-import pymysql
+#import pymysql
+#import mysql.connector
 
-con = pymysql.connect(host='localhost', port=3306, user='team1', passwd='test623', db='rdbidf1')
+#3con = mysql.connector.connect(host = 'localhost',user = 'root',password = 'Password_mysql',database = 'login_page')
+
+#c = con.cursor()
+"""con = pymysql.connect(host='localhost', port=3306, user='team1', passwd='test623', db='rdbidf1')"""
+import sqlite3
+con = sqlite3.connect('rdbidf1')
 
 class MyForm(QtWidgets.QMainWindow):
   def __init__(self,parent=None):

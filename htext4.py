@@ -9,7 +9,7 @@ url1 = 'http://www.english-for-students.com/banished-son-saves-his-brothers.html
 request=urllib.request.Request(url1,None,headers) #The assembled request
 response = urllib.request.urlopen(request)
 text = response.read()
-soup = Soup(text) #using Soup on the responde read
+soup = Soup(text, "lxml") #using Soup on the responde read
 for script in soup(["script", "style"]): #You need to extract this <script> and <style> tags
     script.extract() #strip them off
 text = soup.getText() #this is the method that I had like 40 min problems

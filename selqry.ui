@@ -13,15 +13,23 @@
   <property name="windowTitle">
    <string>Select a Query</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 170, 255);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>30</y>
-      <width>101</width>
-      <height>21</height>
+      <width>131</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);
+font: 75 10pt &quot;Times New Roman&quot;;
+</string>
     </property>
     <property name="text">
      <string>Queries to select:</string>
@@ -36,6 +44,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 127);
+font: 75 10pt &quot;Times New Roman&quot;;
+</string>
+    </property>
     <property name="text">
      <string>Press after selecting query</string>
     </property>
@@ -43,11 +56,14 @@
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>30</y>
-      <width>691</width>
+      <x>170</x>
+      <y>40</y>
+      <width>641</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
   </widget>
