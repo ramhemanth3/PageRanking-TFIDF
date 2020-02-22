@@ -12,7 +12,6 @@ Before running make sure you have all these packages installed
 5) pandas - pip install pandas
 
 
-
 Abstract 
 1) Page Ranking is an algorithm which decides what to bring on first page for query on a search engine.
 2) Page Rank rates a web page’s importance by looking at how many outside links points to it and how important those links are.
