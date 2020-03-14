@@ -16,6 +16,7 @@ text = soup.getText() #this is the method that I had like 40 min problems
 text = text.encode('utf-8') #make sure to encode your text to be compatible
 print(text)
 
+
 '''
 from bs4 import BeautifulSoup
 import json
