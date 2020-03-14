@@ -177,6 +177,7 @@ simco2 = simco2/ld2
 simco3 = simco3/ld3
 simco4 = simco4/ld4
 simco5 = simco5/ld5
+print('Ranking of the Documents are as Follows:')
 print(simco1,simco2,simco3,simco4,simco5)
 
 
